@@ -7,7 +7,7 @@ public class PlayerAiming : NetworkBehaviour
 
     private void LateUpdate()
     {
-        if (!IsOwner) { return; }
+        if(!IsOwner) {  return; }
 
         Vector2 aimScreenPosition = inputRender.AimPosition;
         Vector2 aimWorldPostion = Camera.main.ScreenToWorldPoint(aimScreenPosition);
@@ -19,3 +19,4 @@ public class PlayerAiming : NetworkBehaviour
     }
 
 }
+ 
