@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2933238671805898446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5198273777417552278, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3675182093
+      objectReference: {fileID: 0}
+    - target: {fileID: -5198273777417552278, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5198273777417552278, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 872972848
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441625340779899402, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120860544097801263, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      propertyPath: m_Name
+      value: RespawningCoin
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5120860544097801263, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5556554092459538425}
+  m_SourcePrefab: {fileID: 100100000, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+--- !u!212 &7260062146741599460 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: -3714316264522964438, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+  m_PrefabInstance: {fileID: 2933238671805898446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8044562047673731809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5120860544097801263, guid: 2b19a605a250c8a47a0351d3df8a46a7, type: 3}
+  m_PrefabInstance: {fileID: 2933238671805898446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5556554092459538425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8044562047673731809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38dc2854859a7a1418c47692a1988f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawningCoin
+  ShowTopMostFoldoutHeaderGroup: 1
+  spriteRenderer: {fileID: 7260062146741599460}
