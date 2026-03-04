@@ -9,27 +9,32 @@ public class ClientSingleton : MonoBehaviour
     {
         get
         {
-            if(instance != null) { return instance; }
+            if (instance != null) { return instance; }
             instance = FindFirstObjectByType<ClientSingleton>();
 
-            if(instance == null)
+            if (instance == null)
             {
                 Debug.LogError("No ClientSingleton in the scene!");
                 return null;
             }
-            return instance;    
+            return instance;
         }
     }
     void Start()
     {
-        DontDestroyOnLoad(gameObject);  
+        DontDestroyOnLoad(gameObject);
     }
 
     public async Task<bool> CreateClient()
     {
-        GameManager = new ClientGameManager();  
+        GameManager = new ClientGameManager();
 
         return await GameManager.InitAsync();
+    }
+
+    private void OnDestroy()
+    {
+        GameManager?.Dispose();
     }
 }
  
